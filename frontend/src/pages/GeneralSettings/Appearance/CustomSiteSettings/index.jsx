@@ -62,7 +62,7 @@ export default function CustomSiteSettings() {
               name="meta_page_title"
               type="text"
               className="border-none bg-zinc-900 mt-3 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 max-w-[400px] placeholder:text-white/20"
-              placeholder="AnythingLLM | Your personal LLM trained on anything"
+              placeholder="HiveLink | Your personal LLM trained on anything"
               autoComplete="off"
               onChange={(e) => {
                 setSettings((prev) => {
@@ -71,7 +71,7 @@ export default function CustomSiteSettings() {
               }}
               value={
                 settings.title ??
-                "AnythingLLM | Your personal LLM trained on anything"
+                "HiveLink | Your personal LLM trained on anything"
               }
             />
           </div>
@@ -86,8 +86,8 @@ export default function CustomSiteSettings() {
           </div>
           <div className="flex items-center gap-x-2">
             <img
-              src={settings.faviconUrl ?? "/favicon.png"}
-              onError={(e) => (e.target.src = "/favicon.png")}
+              src={settings.faviconUrl ?? "/favicon.svg"}
+              onError={(e) => (e.target.src = "/favicon.svg")}
               className="h-10 w-10 rounded-lg mt-2.5"
             />
             <input

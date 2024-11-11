@@ -14,11 +14,11 @@ export default function ImportedSkillList({
         <p>
           Learn about agent skills in the{" "}
           <a
-            href="https://docs.anythingllm.com/agent/custom/developer-guide"
+            href="https://docs.HiveLink.com/agent/custom/developer-guide"
             target="_blank"
             className="text-white/80 hover:underline"
           >
-            AnythingLLM Agent Docs
+            HiveLink Agent Docs
           </a>
           .
         </p>

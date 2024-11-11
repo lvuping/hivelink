@@ -192,7 +192,7 @@ function FeatureVerification({ children }) {
               <div className="p-6 space-y-6 flex h-full w-full">
                 <div className="w-full flex flex-col gap-y-4 text-white">
                   <p>
-                    Experimental features of AnythingLLM are features that we
+                    Experimental features of HiveLink are features that we
                     are piloting and are <b>opt-in</b>. We proactively will
                     condition or warn you on any potential concerns should any
                     exist prior to approval of any feature.
@@ -212,7 +212,7 @@ function FeatureVerification({ children }) {
                         Increased cost or use of any connected LLM or embedding
                         provider.
                       </li>
-                      <li>Potential bugs or issues using AnythingLLM.</li>
+                      <li>Potential bugs or issues using HiveLink.</li>
                     </ul>
                   </div>
 
@@ -226,7 +226,7 @@ function FeatureVerification({ children }) {
                       <li>The feature being used is not currently stable.</li>
                       <li>
                         The feature may not be available in future versions,
-                        configurations, or subscriptions of AnythingLLM.
+                        configurations, or subscriptions of HiveLink.
                       </li>
                       <li>
                         Your privacy settings <b>will be honored</b> with use of
@@ -240,10 +240,10 @@ function FeatureVerification({ children }) {
                     Access to any features requires approval of this modal. If
                     you would like to read more you can refer to{" "}
                     <a
-                      href="https://docs.anythingllm.com/beta-preview/overview"
+                      href="https://docs.HiveLink.com/beta-preview/overview"
                       className="underline text-blue-500"
                     >
-                      docs.anythingllm.com
+                      docs.HiveLink.com
                     </a>{" "}
                     or email{" "}
                     <a

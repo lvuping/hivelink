@@ -40,13 +40,13 @@ export default {
     return "https://discord.com/invite/6UyHPeGZAC";
   },
   docs: () => {
-    return "https://docs.anythingllm.com";
+    return "https://docs.HiveLink.com";
   },
   mailToMintplex: () => {
     return "mailto:team@mintplexlabs.com";
   },
   hosting: () => {
-    return "https://my.mintplexlabs.com/aio-checkout?product=anythingllm";
+    return "https://my.mintplexlabs.com/aio-checkout?product=HiveLink";
   },
   workspace: {
     chat: (slug) => {
