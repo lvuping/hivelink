@@ -31,12 +31,12 @@ export const resources = {
   en: {
     common: English,
   },
-  de: {
-    common: German,
-  },
-  ko: {
-    common: Korean,
-  },
+  // de: {
+  //   common: German,
+  // },
+  // ko: {
+  //   common: Korean,
+  // },
   // zh: {
   //   common: Mandarin,
   // },
