@@ -45,21 +45,21 @@ class MetaGenerator {
       {
         tag: "title",
         props: null,
-        content: "HiveLink | Your personal LLM trained on anything",
+        content: "HiveLink | Your Knowledge, Intelligently Connected",
       },
 
       {
         tag: "meta",
         props: {
           name: "title",
-          content: "HiveLink | Your personal LLM trained on anything",
+          content: "HiveLink | Your Knowledge, Intelligently Connected",
         },
       },
       {
         tag: "meta",
         props: {
           description: "title",
-          content: "HiveLink | Your personal LLM trained on anything",
+          content: "HiveLink | Your Knowledge, Intelligently Connected",
         },
       },
 
@@ -73,14 +73,14 @@ class MetaGenerator {
         tag: "meta",
         props: {
           property: "og:title",
-          content: "HiveLink | Your personal LLM trained on anything",
+          content: "HiveLink | Your Knowledge, Intelligently Connected",
         },
       },
       {
         tag: "meta",
         props: {
           property: "og:description",
-          content: "HiveLink | Your personal LLM trained on anything",
+          content: "HiveLink | Your Knowledge, Intelligently Connected",
         },
       },
 
@@ -98,14 +98,14 @@ class MetaGenerator {
         tag: "meta",
         props: {
           property: "twitter:title",
-          content: "HiveLink | Your personal LLM trained on anything",
+          content: "HiveLink | Your Knowledge, Intelligently Connected",
         },
       },
       {
         tag: "meta",
         props: {
           property: "twitter:description",
-          content: "HiveLink | Your personal LLM trained on anything",
+          content: "HiveLink | Your Knowledge, Intelligently Connected",
         },
       },
 
@@ -176,7 +176,7 @@ class MetaGenerator {
           props: null,
           content:
             customTitle ??
-            "HiveLink | Your personal LLM trained on anything",
+            "HiveLink | Your Knowledge, Intelligently Connected",
         },
       ];
     }
