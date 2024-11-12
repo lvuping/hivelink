@@ -110,7 +110,7 @@ export default function SettingsSidebar() {
                     <SidebarOptions user={user} t={t} />
                     <div className="h-[1.5px] bg-[#3D4147] mx-3 mt-[14px]" />
                     <SupportEmail />
-                    <Link
+                    {/* <Link
                       hidden={
                         user?.hasOwnProperty("role") && user.role !== "admin"
                       }
@@ -118,7 +118,7 @@ export default function SettingsSidebar() {
                       className="text-darker hover:text-white text-xs leading-[18px] mx-3"
                     >
                       {t("settings.privacy")}
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -284,22 +284,22 @@ const SidebarOptions = ({ user = null, t }) => (
             },
           ]}
         />
-        <Option
+        {/* <Option
           btnText={t("settings.agent-skills")}
           icon={<Robot className="h-5 w-5 flex-shrink-0" />}
           href={paths.settings.agentSkills()}
           user={user}
           flex={true}
           roles={["admin"]}
-        />
-        <Option
+        /> */}
+        {/* <Option
           btnText={t("settings.customization")}
           icon={<PencilSimpleLine className="h-5 w-5 flex-shrink-0" />}
           href={paths.settings.appearance()}
           user={user}
           flex={true}
           roles={["admin", "manager"]}
-        />
+        /> */}
         <Option
           btnText={t("settings.tools")}
           icon={<Toolbox className="h-5 w-5 flex-shrink-0" />}
@@ -347,7 +347,7 @@ const SidebarOptions = ({ user = null, t }) => (
           roles={["admin", "manager"]}
           hidden={user?.role}
         />
-        <HoldToReveal key="exp_features">
+        {/* <HoldToReveal key="exp_features">
           <Option
             btnText={t("settings.experimental-features")}
             icon={<Flask className="h-5 w-5 flex-shrink-0" />}
@@ -356,7 +356,7 @@ const SidebarOptions = ({ user = null, t }) => (
             flex={true}
             roles={["admin"]}
           />
-        </HoldToReveal>
+        </HoldToReveal> */}
       </>
     )}
   </CanViewChatHistoryProvider>
