@@ -104,10 +104,10 @@ export default function Fulfillment({ setSettings, setStep }) {
               For any questions related to payment or fulfillment of services,
               please contact us at{" "}
               <a
-                href="mailto:team@mintplexlabs.com"
+                href="mailto:info@dexterbee.com"
                 className="text-blue-400 hover:underline"
               >
-                team@mintplexlabs.com
+                info@dexterbee.com
               </a>
               .
             </p>

@@ -43,7 +43,7 @@ export default {
     return "https://docs.HiveLink.com";
   },
   mailToMintplex: () => {
-    return "mailto:team@mintplexlabs.com";
+    return "mailto:info@dexterbee.com";
   },
   hosting: () => {
     return "https://my.mintplexlabs.com/aio-checkout?product=HiveLink";

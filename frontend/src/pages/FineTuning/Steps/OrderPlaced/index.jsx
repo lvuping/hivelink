@@ -57,7 +57,7 @@ export default function OrderPlaced({ settings }) {
                 Documentation
               </a>
               <a
-                href="mailto:team@mintplexlabs.com"
+                href="mailto:info@dexterbee.com"
                 className="text-sky-400 hover:underline hover:cursor-pointer"
               >
                 Contact support

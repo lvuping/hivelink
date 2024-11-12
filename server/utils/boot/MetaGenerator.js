@@ -83,14 +83,7 @@ class MetaGenerator {
           content: "HiveLink | Your personal LLM trained on anything",
         },
       },
-      {
-        tag: "meta",
-        props: {
-          property: "og:image",
-          content:
-            "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/images/promo.png",
-        },
-      },
+
 
       // <!-- Twitter -->
       {
@@ -113,14 +106,6 @@ class MetaGenerator {
         props: {
           property: "twitter:description",
           content: "HiveLink | Your personal LLM trained on anything",
-        },
-      },
-      {
-        tag: "meta",
-        props: {
-          property: "twitter:image",
-          content:
-            "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/images/promo.png",
         },
       },
 
