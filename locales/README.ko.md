@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <p align="center">
-  <a href="https://hivelink.com"><img src="path/to/hivelink-logo.png" alt="Hivelink 로고"></a>
+  <a href="https://hivelink.live"><img src="path/to/hivelink-logo.png" alt="Hivelink 로고"></a>
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-👉 데스크톱용 Hivelink (Mac, Windows, Linux)! <a href="https://hivelink.com/download" target="_blank">지금 다운로드</a>
+👉 데스크톱용 Hivelink (Mac, Windows, Linux)! <a href="https://hivelink.live/download" target="_blank">지금 다운로드</a>
 </p>
 
 모든 문서, 리소스 또는 콘텐츠를 LLM이 채팅 중에 참조로 사용할 수 있는 컨텍스트로 전환할 수 있게 해주는 풀스택 애플리케이션입니다. 이 애플리케이션을 통해 원하는 LLM이나 벡터 데이터베이스를 선택할 수 있으며, 다중 사용자 관리 및 권한도 지원합니다.

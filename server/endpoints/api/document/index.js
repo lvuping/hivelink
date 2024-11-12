@@ -136,7 +136,7 @@ function apiDocumentEndpoints(app) {
             schema: {
               type: 'object',
               example: {
-                "link": "https://HiveLink.com"
+                "link": "https://hivelink.live"
               }
             }
           }

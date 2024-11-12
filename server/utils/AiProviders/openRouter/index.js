@@ -24,7 +24,7 @@ class OpenRouterLLM {
       baseURL: this.basePath,
       apiKey: process.env.OPENROUTER_API_KEY ?? null,
       defaultHeaders: {
-        "HTTP-Referer": "https://HiveLink.com",
+        "HTTP-Referer": "https://hivelink.live",
         "X-Title": "HiveLink",
       },
     });

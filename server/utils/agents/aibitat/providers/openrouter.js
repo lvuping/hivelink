@@ -17,7 +17,7 @@ class OpenRouterProvider extends InheritMultiple([Provider, UnTooled]) {
       apiKey: process.env.OPENROUTER_API_KEY,
       maxRetries: 3,
       defaultHeaders: {
-        "HTTP-Referer": "https://HiveLink.com",
+        "HTTP-Referer": "https://hivelink.live",
         "X-Title": "HiveLink",
       },
     });

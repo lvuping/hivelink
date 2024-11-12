@@ -67,7 +67,7 @@ class MetaGenerator {
       { tag: "meta", props: { property: "og:type", content: "website" } },
       {
         tag: "meta",
-        props: { property: "og:url", content: "https://HiveLink.com" },
+        props: { property: "og:url", content: "https://hivelink.live" },
       },
       {
         tag: "meta",
@@ -92,7 +92,7 @@ class MetaGenerator {
       },
       {
         tag: "meta",
-        props: { property: "twitter:url", content: "https://HiveLink.com" },
+        props: { property: "twitter:url", content: "https://hivelink.live" },
       },
       {
         tag: "meta",

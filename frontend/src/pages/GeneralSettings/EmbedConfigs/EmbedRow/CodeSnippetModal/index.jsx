@@ -54,7 +54,7 @@ https://github.com/Mintplex-Labs/anything-llm/tree/master/embed/README.md
   data-base-api-url="${serverHost}/api/embed"
   src="${scriptHost}/embed/HiveLink-chat-widget.min.js">
 </script>
-<!-- HiveLink (https://HiveLink.com) -->
+<!-- HiveLink (https://hivelink.live) -->
 `;
 }
 

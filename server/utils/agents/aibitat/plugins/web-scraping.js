@@ -20,7 +20,7 @@ const webScraping = {
           examples: [
             {
               prompt: "What is HiveLink.com about?",
-              call: JSON.stringify({ url: "https://HiveLink.com" }),
+              call: JSON.stringify({ url: "https://hivelink.live" }),
             },
             {
               prompt: "Scrape https://example.com",
