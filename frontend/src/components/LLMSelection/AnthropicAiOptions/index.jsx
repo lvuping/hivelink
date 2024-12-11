@@ -10,7 +10,7 @@ export default function AnthropicAiOptions({ settings }) {
             type="password"
             name="AnthropicApiKey"
             className="bg-zinc-900 text-white placeholder:text-white/20 text-sm rounded-lg focus:outline-primary-button active:outline-primary-button outline-none block w-full p-2.5"
-            placeholder="Anthropic Claude-2 API Key"
+            placeholder="Anthropic Claude API Key"
             defaultValue={settings?.AnthropicApiKey ? "*".repeat(20) : ""}
             required={true}
             autoComplete="off"
@@ -41,6 +41,7 @@ export default function AnthropicAiOptions({ settings }) {
                 "claude-3-5-sonnet-latest",
                 "claude-3-5-sonnet-20241022",
                 "claude-3-5-sonnet-20240620",
+                "claude-3-5-sonnet-20241022",
               ].map((model) => {
                 return (
                   <option key={model} value={model}>
