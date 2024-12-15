@@ -50,6 +50,7 @@ export default function GeminiLLMOptions({ settings }) {
                     "gemini-1.5-pro-exp-0827",
                     "gemini-1.5-flash-exp-0827",
                     "gemini-1.5-flash-8b-exp-0827",
+                    "gemini-2.0-flash-exp",
                   ].map((model) => {
                     return (
                       <option key={model} value={model}>
