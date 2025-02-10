@@ -693,14 +693,9 @@ function supportedTranscriptionProvider(input = "") {
 
 function validGeminiModel(input = "") {
   const validModels = [
-    "gemini-pro",
-    "gemini-1.0-pro",
-    "gemini-1.5-pro-latest",
-    "gemini-1.5-flash-latest",
-    "gemini-1.5-pro-exp-0801",
-    "gemini-1.5-pro-exp-0827",
-    "gemini-1.5-flash-exp-0827",
-    "gemini-1.5-flash-8b-exp-0827",
+    "gemini-2.0-flash-exp-02-05",
+    "gemini-2.0-flash-thinking-exp-02-05",
+    "gemini-2.0-flash-001",
   ];
   return validModels.includes(input)
     ? null
@@ -721,18 +716,12 @@ function validGeminiSafetySetting(input = "") {
 
 function validAnthropicModel(input = "") {
   const validModels = [
-    "claude-instant-1.2",
-    "claude-2.0",
-    "claude-2.1",
-    "claude-3-haiku-20240307",
-    "claude-3-sonnet-20240229",
     "claude-3-opus-latest",
     "claude-3-5-haiku-latest",
     "claude-3-5-haiku-20241022",
     "claude-3-5-sonnet-latest",
     "claude-3-5-sonnet-20241022",
-    "claude-3-5-sonnet-20240620",
-    "claude-3-5-sonnet-20241022",
+  ];
   ];
   return validModels.includes(input)
     ? null

@@ -20,12 +20,9 @@ class GeminiLLM {
       {
         // Gemini-1.5-pro-* and Gemini-1.5-flash are only available on the v1beta API.
         apiVersion: [
-          "gemini-1.5-pro-latest",
-          "gemini-1.5-flash-latest",
-          "gemini-1.5-pro-exp-0801",
-          "gemini-1.5-pro-exp-0827",
-          "gemini-1.5-flash-exp-0827",
-          "gemini-1.5-flash-8b-exp-0827",
+          "gemini-2.0-flash-exp-02-05",
+          "gemini-2.0-flash-thinking-exp-02-05",
+          "gemini-2.0-flash-001",
         ].includes(this.model)
           ? "v1beta"
           : "v1",
@@ -103,14 +100,9 @@ class GeminiLLM {
 
   isValidChatCompletionModel(modelName = "") {
     const validModels = [
-      "gemini-pro",
-      "gemini-1.0-pro",
-      "gemini-1.5-pro-latest",
-      "gemini-1.5-flash-latest",
-      "gemini-1.5-pro-exp-0801",
-      "gemini-1.5-pro-exp-0827",
-      "gemini-1.5-flash-exp-0827",
-      "gemini-1.5-flash-8b-exp-0827",
+      "gemini-2.0-flash-exp-02-05",
+      "gemini-2.0-flash-thinking-exp-02-05",
+      "gemini-2.0-flash-001",
     ];
     return validModels.includes(modelName);
   }

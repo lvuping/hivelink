@@ -4,20 +4,11 @@
  */
 const MODEL_MAP = {
   anthropic: {
-    "claude-instant-1.2": 100_000,
-    "claude-2.0": 100_000,
-    "claude-2.1": 200_000,
-    "claude-3-haiku-20240307": 200_000,
-    "claude-3-sonnet-20240229": 200_000,
-    "claude-3-opus-20240229": 200_000,
-    "claude-3-haiku-20240307": 200_000,
-    "claude-3-sonnet-20240229": 200_000,
     "claude-3-opus-latest": 200_000,
     "claude-3-5-haiku-latest": 200_000,
     "claude-3-5-haiku-20241022": 200_000,
     "claude-3-5-sonnet-latest": 200_000,
     "claude-3-5-sonnet-20241022": 200_000,
-    "claude-3-5-sonnet-20240620": 200_000,
   },
   cohere: {
     "command-r": 128_000,
@@ -28,14 +19,9 @@ const MODEL_MAP = {
     "command-light-nightly": 8_192,
   },
   gemini: {
-    "gemini-pro": 30_720,
-    "gemini-1.0-pro": 30_720,
-    "gemini-1.5-flash-latest": 1_048_576,
-    "gemini-1.5-pro-latest": 2_097_152,
-    "gemini-1.5-pro-exp-0801": 2_097_152,
-    "gemini-1.5-pro-exp-0827": 2_097_152,
-    "gemini-1.5-flash-exp-0827": 1_048_576,
-    "gemini-1.5-flash-8b-exp-0827": 1_048_576,
+    "gemini-2.0-flash-exp-02-05": 2_097_152,
+    "gemini-2.0-flash-thinking-exp-02-05": 2_097_152,
+    "gemini-2.0-flash-001": 2_097_152,
   },
   groq: {
     "gemma2-9b-it": 8192,
