@@ -716,12 +716,10 @@ function validGeminiSafetySetting(input = "") {
 
 function validAnthropicModel(input = "") {
   const validModels = [
-    "claude-3-opus-latest",
     "claude-3-5-haiku-latest",
     "claude-3-5-haiku-20241022",
     "claude-3-5-sonnet-latest",
     "claude-3-5-sonnet-20241022",
-  ];
   ];
   return validModels.includes(input)
     ? null
