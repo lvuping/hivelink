@@ -1,6 +1,8 @@
 v-env
 .env
 !.env.example
+!docker/.env
+!docker/.env.development
 
 node_modules
 __pycache__
